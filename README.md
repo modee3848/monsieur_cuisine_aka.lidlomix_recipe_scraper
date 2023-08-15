@@ -1,2 +1,4 @@
 # monsieur_cuisine_aka.lidlomix_recipe_scraper
 Simple scraper iterating over IDs, calling an API, and saving recipes in JSON format
+
+I created this scraper because, after changes made to the Monsieur Cuisine website, one of the more popular and comprehensive tools of this type (recipe-scrapers), which supports many recipe websites, stopped supporting scraping from the Monsieur Cuisine site. Guided by the information found in this thread https://github.com/hhursev/recipe-scrapers/issues/602, I wrote a simple tool that iterates and checks a user-defined range of potential recipe IDs (for my tests, the range from 1 to 300,000 gathered about 900 recipes, most of which were in the range of 200 to 300 thousand). The scraper ensures basic exception handling related to issues connecting to the API.
