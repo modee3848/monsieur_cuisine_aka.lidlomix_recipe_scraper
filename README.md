@@ -1,2 +1,2 @@
 # monsieur_cuisine_aka.lidlomix_recipe_scraper
-A simple 
+Simple scraper iterating over IDs, calling an API, and saving recipes in JSON format
